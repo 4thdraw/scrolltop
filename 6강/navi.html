@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실전 반응형 네비게이션</title>
+    <link rel="stylesheet" href="./css/bt5x.css">
+
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/common.css">
+
+    <link rel="stylesheet" href="./css/layout.css">
+
+    
+    <script src="./js/vj.js"></script>
+    <script src="./js/bt5x.js"></script>
+
+    <script src="./js/jquery2x.js"></script>
+    <script src="./js/jq.js"></script>
+
+</head>
+<body>
+    <header id="hd" class="fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">프레임워크</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll fw500" style="--bs-scroll-height: 100px;">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">소메뉴없음</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" 
+                    href="#" id="navbarScrollingDropdown" 
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      대메뉴
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#action">Action</a></li>
+                      <li><a class="dropdown-item" href="#twoaction">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#saction">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+       <main class="vh-100 bg-success 
+                    d-flex flex-column justify-content-center align-items-center 
+                    text-white fs-1">
+             스와이퍼처리하기
+       </main>
+       <div id="about" class="vh-100 bg-dark py-5">
+            <h2 class="text-center text-white fs-2">효능안내</h2>
+       </div>
+
+    </section>
+    <footer>
+
+    </footer>
+  
+</body>
+</html>
